@@ -3,3 +3,48 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+body{
+    background: #1f1d2a url('../images/bg-stars.svg');
+    font-family: 'Red Hat Text', sans-serif;
+    footer{
+        position: absolute;
+        bottom: 0;
+        background: url('../images/pattern-hills.svg') no-repeat ;
+        z-index: 100;
+        width: 100%;
+        height: 15rem;
+        background-size: cover;
+    }
+}
+
+footer{
+    .social-icons{
+        ul{
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-around;
+            align-items: center;
+            width: 10rem;
+            padding-top: 8rem;
+            li{
+                list-style: none;
+
+            }
+        }
+    }
+}
+
+.content{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    .main-heading{
+        text-transform: uppercase;
+        word-spacing: 1rem;
+        letter-spacing: .5rem;
+    }
+}
